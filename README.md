@@ -1,4 +1,4 @@
-Streamlit Dashboard Project Project Overview
+# Streamlit Dashboard Project Project Overview
 
 The Crypto Volatility Visualizer is an interactive dashboard built using Python and Streamlit to help users understand cryptocurrency price movements and market volatility.
 
@@ -10,12 +10,12 @@ The dashboard allows users to interactively adjust parameters such as amplitude,
 
 The application was developed using Python, Pandas, NumPy, Plotly, and Streamlit.
 
-Project Team
+# Project Team
 Het Thakkar Prahaan Sanghvi
 
-CRS: Artificial Intelligence – AI
+# CRS: Artificial Intelligence – AI
 
-Project Objectives
+# Project Objectives
 The objective of this project is to:
 
 Analyze cryptocurrency price data
@@ -30,15 +30,15 @@ Deploy the application using Streamlit Cloud
 
 This project connects mathematics, data science, and financial analysis into a practical AI application.
 
-Dataset Used
+# Dataset Used
 The project uses Bitcoin historical price data containing the following columns:
 
-Column Description
+# Column Description
 Timestamp Time at which the trade data was recorded Open Price at the beginning of the time period High Highest price during the period Low Lowest price during the period Close Final price at the end of the period Volume Total trading volume
 
 The dataset is cleaned and processed using Pandas before visualization.
 
-Data Preparation
+# Data Preparation
 The dataset undergoes several preprocessing steps:
 
 Loading Data
@@ -67,7 +67,7 @@ Users can select different timeframes:
 
 This helps users visualize price behaviour at different time scales.
 
-Mathematical Simulation
+# Mathematical Simulation
 This simulates a long-term upward or downward market trend.
 
 Streamlit Dashboard Features
@@ -104,7 +104,7 @@ Drift
 
 Controls the long-term upward or downward trend.
 
-Visualizations
+# Visualizations
 The dashboard contains multiple financial visualizations.
 
 Candlestick Chart with Simulation
@@ -145,7 +145,7 @@ Volatility Index
 
 Standard deviation of log returns.
 
-𝜎
+# 𝜎
 𝑠 𝑡 𝑑 ( 𝑙 𝑜 𝑔 𝑟 𝑒 𝑡 𝑢 𝑟 𝑛 𝑠 ) σ=std(log returns)
 
 This measures how unstable the market is.
@@ -154,23 +154,35 @@ Average Drift
 
 Mean return of the dataset.
 
-𝜇
+# 𝜇
 𝑚 𝑒 𝑎 𝑛 ( 𝑙 𝑜 𝑔 𝑟 𝑒 𝑡 𝑢 𝑟 𝑛 𝑠 ) μ=mean(log returns)
 
 This indicates the average market trend.
 
-Technologies Used Technology Purpose Python Core programming language Pandas Data cleaning and processing NumPy Mathematical calculations Plotly Interactive financial charts Streamlit Dashboard interface GitHub Version control Streamlit Cloud Application deployment How to Run the Project
+# Technologies Used - Technology Purpose
+
+Python - Core programming language
+Pandas - Data cleaning and processing
+NumPy - Mathematical calculations
+Plotly Interactive financial charts
+Streamlit - Dashboard interface
+GitHub - Version control
+Streamlit - Cloud Application deployment
+
+# How to Run the Project
 
 Install Dependencies pip install streamlit pandas numpy plotly
 Run the Streamlit App streamlit run main.py
 Open in Browser
 The dashboard will open automatically at:
 
-https://crypto-volatility-visualizer-kniks82zrj5njaymrxwnwv.streamlit.app/)Deployment
+https://crypto-volatility-visualizer-kniks82zrj5njaymrxwnwv.streamlit.app/)
+
+# Deployment
 
 The project is deployed using Streamlit Cloud.
 
-Conclusion
+# Conclusion
 
 The Crypto Volatility Visualizer demonstrates how mathematics, programming, and data visualization can be combined to better understand financial markets.
 
